@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<item type="id" name="dg1patch_header_layout">false</item>
+<item type="id" name="dg1patch_app_icon">false</item>
+<item type="id" name="dg1patch_app_name">false</item>
+<item type="id" name="dg1patch_app_pkgpath">false</item>
+<item type="id" name="dg1patch_preference_list">false</item>
+<item type="id" name="dg1patch_layout_scanning">false</item>
+<item type="id" name="dg1patch_progress_bar">false</item>
+<item type="id" name="dg1patch_tv_tip">false</item>
+<item type="id" name="dg1patch_label_appname">false</item>
+<item type="id" name="dg1patch_tv_appname">false</item>
+<item type="id" name="dg1patch_label_prefname">false</item>
+<item type="id" name="dg1patch_tv_prefname">false</item>
+<item type="id" name="dg1patch_scroll_view">false</item>
+<item type="id" name="dg1patch_valueTable">false</item>
+<item type="id" name="dg1patch_footer_layout">false</item>
+<item type="id" name="dg1patch_tv_keyword">false</item>
+<item type="id" name="dg1patch_button_search">false</item>
+<item type="id" name="dg1patch_button_close">false</item>
+<item type="id" name="dg1patch_image_prev">false</item>
+<item type="id" name="dg1patch_image_next">false</item>
+<item type="id" name="dg1patch_tv_type">false</item>
+<item type="id" name="dg1patch_key_layout">false</item>
+<item type="id" name="dg1patch_et_key">false</item>
+<item type="id" name="dg1patch_value_layout">false</item>
+<item type="id" name="dg1patch_et_valuey">false</item>
+<item type="id" name="dg1patch_tv_noteditable">false</item>
+<item type="id" name="dg1patch_btn_save">false</item>
+<item type="id" name="dg1patch_btn_cancel">false</item>
+<item type="id" name="dg1patch_tv_first">false</item>
+<item type="id" name="dg1patch_tv_second">false</item>
+</resources>

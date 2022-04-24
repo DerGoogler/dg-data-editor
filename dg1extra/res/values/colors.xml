@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<color name="dg1patch_white">#ff999999</color>
+<color name="dg1patch_littleblue">#ffe9f2fc</color>
+<color name="dg1patch_lightblue">#ff5997c4</color>
+<color name="dg1patch_black">#ff303030</color>
+<color name="dg1patch_darkblue">#ff1122cc</color>
+</resources>

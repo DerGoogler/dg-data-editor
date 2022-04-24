@@ -1,0 +1,56 @@
+[MIN_ENGINE_VER]
+1
+
+[AUTHOR]
+Der_Googler (DG)
+
+[PACKAGE]
+*
+
+# Remove files
+[REMOVE_FILES]
+TARGET:
+    res/values-bs
+    res/values-ca
+[/REMOVE_FILES]
+
+
+# Change app name to "@string/app_name"
+[MATCH_REPLACE]
+TARGET:
+    AndroidManifest.xml
+MATCH:
+    <application(.*)android:label=".+?"(.*)
+REGEX:
+    true
+REPLACE:
+    <application${GROUP1}android:label="@string/app_name"${GROUP2}
+[/MATCH_REPLACE]
+
+# Add activities
+[MATCH_REPLACE]
+TARGET:
+    AndroidManifest.xml
+MATCH:
+    </application>
+REGEX:
+    false
+REPLACE:
+        <activity
+            android:name="dergoogler.dg1patch.PrefOverallActivity"
+            android:label="DG Data Editor" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="dergoogler.dg1patch.PrefDetailActivity" />
+    </application>
+[/MATCH_REPLACE]
+
+# Merge resources and smali files inside extra.zip
+# The IDs inside smali files will be refactored
+[MERGE]
+SOURCE:
+    dg1extra.zip
+[/MERGE]

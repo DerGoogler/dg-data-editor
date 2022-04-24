@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<string name="dg1patch_loading">Loading</string>
+<string name="dg1patch_label_app_name">App Name:</string>
+<string name="dg1patch_label_shared_preference">Shared Preference:</string>
+<string name="dg1patch_raw_file">Raw File</string>
+<string name="dg1patch_search">Search</string>
+<string name="dg1patch_close">Close</string>
+<string name="dg1patch_warning_keyword_empty">Keyword can not be empty.</string>
+<string name="dg1patch_key">Key</string>
+<string name="dg1patch_value">Value</string>
+<string name="dg1patch_save">Save</string>
+</resources>
